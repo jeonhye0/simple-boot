@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class UIController {
 
-    @GetMapping("/")
+    @GetMapping("/main")
     @ResponseBody
     public String main() {
         return "Main Page";
